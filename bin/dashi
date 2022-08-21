@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/dashi"
+
+cmd = ARGV[0]
+
+app = Dashi.new cmd
+app.start
+
+
+# Look for .md file in md folder
